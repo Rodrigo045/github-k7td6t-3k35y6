@@ -7,6 +7,7 @@ const allPosts = Astro.fetchContent('./blog/*.md');
 allPosts.sort((a,b) => {
   return new Date(b.date).getTime() - new Date(a.date).getTime();
 })
+
 ---
 <BaseLayout title="Homepage">
   <h1>Blog</h1>
@@ -21,6 +22,7 @@ allPosts.sort((a,b) => {
       <a href={post.url}>Leer más</a> <small class="date">{post.date}</small>
     </div>  
   ))}
+  
 
   
 </BaseLayout>
