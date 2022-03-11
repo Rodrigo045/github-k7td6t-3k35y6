@@ -1,0 +1,24 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+<BaseLayout title="Homepage">
+<div class="single__player clearfix">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/05/Radio-Clásica.jpg" width="100%">
+				</div>
+				<div class="col-md-8">
+					<div class="single-info">
+						<h1 class="single-title">Radio Clásica</h1> 
+						<div style="font-size: 14px">
+							<span><i>La fuerza de la música</i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<audio preload="auto" controls="" autoplay="">
+				<source src="https://crtve-ice-edge-2002-fra-eco-cdn.cast.addradio.de/crtve/rnerc/main/mp3/high">
+			</audio>
+		</div>
+</BaseLayout>

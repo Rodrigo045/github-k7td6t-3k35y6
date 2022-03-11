@@ -1,0 +1,26 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+<BaseLayout title="Homepage">
+  <h1>Programa de radio</h1>
+  <div class="single__player clearfix">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/04/los-40-principales.png" width="100%">
+				</div>
+				<div class="col-md-8">
+					<div class="single-info">
+						<h1 class="single-title">Los 40 Principales</h1> 
+						<div style="font-size: 14px">
+							<span><i>La Radio de los Éxitos</i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<audio preload="auto" controls="" autoplay="">
+				<source src="https://20863.live.streamtheworld.com/LOS40_SC">
+			</audio>
+		</div>
+
+</BaseLayout>

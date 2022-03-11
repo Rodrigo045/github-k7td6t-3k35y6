@@ -1,0 +1,25 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+<BaseLayout title="Homepage">
+  <h1>Programa de radio</h1>
+  <div class="single__player clearfix">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/05/rock-fm.png" width="100%">
+				</div>
+				<div class="col-md-8">
+					<div class="single-info">
+						<h1 class="single-title">Rock FM</h1> 
+						<div style="font-size: 14px">
+							<span><i>La casa del rock</i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<audio preload="auto" controls="" autoplay="">
+				<source src="https://rockfm-cope-rrcast.flumotion.com/cope/rockfm-low.mp3">
+			</audio>
+		</div>
+</BaseLayout>

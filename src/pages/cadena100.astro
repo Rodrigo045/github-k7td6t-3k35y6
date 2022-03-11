@@ -1,0 +1,24 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+<BaseLayout title="Homepage">
+<div class="single__player clearfix">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/05/cadena-cien.png" width="100%">
+				</div>
+				<div class="col-md-8">
+					<div class="single-info">
+						<h1 class="single-title">Cadena 100</h1> 
+						<div style="font-size: 14px">
+							<span><i>La mejor variedad musical</i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<audio preload="auto" controls="" autoplay="">
+				<source src="https://cadena100-cope-rrcast.flumotion.com/cope/cadena100-low.mp3">
+			</audio>
+		</div>
+</BaseLayout>

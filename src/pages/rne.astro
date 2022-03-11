@@ -1,0 +1,25 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+<BaseLayout title="Homepage">
+  <h1>Programa de radio</h1>
+  <div class="single__player clearfix">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/05/RNE-radio-compressed.jpg" width="100%">
+				</div>
+				<div class="col-md-8">
+					<div class="single-info">
+						<h1 class="single-title">RNE Radio</h1> 
+						<div style="font-size: 14px">
+							<span><i>Somos tu radio</i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<audio preload="auto" controls="" autoplay="">
+				<source src="https://crtve-ice-edge-2001-fra-eco-cdn.cast.addradio.de/crtve/rne1/main/mp3/high">
+			</audio>
+		</div>
+</BaseLayout>
