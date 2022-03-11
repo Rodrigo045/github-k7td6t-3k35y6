@@ -4,55 +4,47 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 <BaseLayout title="Homepage">
 <h1>Programas de radio</h1>
-<div class="list-of-arts">
-  <div class="art-preview">
-    <a href="/art">
-      <div class="art-picture"></div>
-    </a>
-    <div class="description">
-    insertar  texto
-    </div>
-  </div>
-  <div class="art-preview">
-   <a href="/art1">
-    <div class="art-picture"></div>
-    </a>
-    <div class="description">
-    insertar el texto
-    </div>
-  </div>
-  <div class="art-preview">
-   <a href="/art2">
-    <div class="art-picture"></div>
-    </a>
-    <div class="description">
-    insertar el texto
-    </div>
-  </div>
-  <div class="art-preview">
-   <a href="/art3">
-    <div class="art-picture"></div>
-    </a>
-    <div class="description">
-    insertar el texto
-    </div>
-  </div>
-  <div class="art-preview">
-   <a href="/art4">
-    <div class="art-picture"></div>
-    </a>
-    <div class="description">
-    insertar texo
-    </div>
-  </div>
-  <div class="art-preview">
-   <a href="/art5">
-    <div class="art-picture"></div>
-    </a>
-    <div class="description">
-    insertar texto
-    </div>
-  </div>
-  </div>
+<ul id="listal"> 
+<li>
+<div class="col-4 col-md-4 col-lg-3">
+	<div class="item-wrapper">
+		<a href="https://emisorasderadioonline.es/cadena-100-en-directo/" class="item">
+			<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/05/cadena-cien.png" class="lazy" alt="Cadena 100">
+			<div class="item-title">Cadena 100</div>
+		</a>
+
+	</div>
 </div>
+</li>
+<li>
+<div class="col-4 col-md-4 col-lg-3">
+	<div class="item-wrapper">
+		<a href="https://emisorasderadioonline.es/esradio-en-directo/" class="item">
+			<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/05/es.png" class="lazy" alt="esRadio">
+			<div class="item-title">esRadio</div>
+		</a>
+	</div>
+</div>
+</li>
+<li>
+<div class="col-4 col-md-4 col-lg-3">
+	<div class="item-wrapper">
+		<a href="https://emisorasderadioonline.es/cadena-dial-en-directo/" class="item">
+			<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/04/Cadena-Dial.png" class="lazy" alt="Cadena Dial">
+			<div class="item-title">Cadena Dial</div>
+		</a>
+	</div>
+</div>
+</li>
+<li>
+<div class="col-4 col-md-4 col-lg-3">
+	<div class="item-wrapper">
+		<a href="https://emisorasderadioonline.es/cope-en-directo/" class="item">
+			<img src="https://emisorasderadioonline.es/wp-content/uploads/2021/05/COPE.png" class="lazy" alt="COPE">
+			<div class="item-title">COPE</div>
+		</a>
+	</div>
+</div>
+</li>
+</ul>
 </BaseLayout>
