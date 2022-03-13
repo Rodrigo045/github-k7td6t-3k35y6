@@ -197,7 +197,7 @@ img.logo:hover {
 
 body {
   font-family: arial;
-  background-image: url('bg.png');
+  background-image: url('https://raw.githubusercontent.com/RogerNatividad/Crear-un-Formulario-de-Login-con-HTML-y-CSS/f7b237943246c266badb76384e8c6a4e8589149e/bg.png');
 }
 
 .form-login {
